@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incriptador</title>
+    <link href="estilos.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div>
+        <img src="img4.jpg" alt="icono de de la plataforma alura">
+    </div>
+    <br>
+    <br>
+    <div class="box">
+        <div class="one">
+            <form name="incriptado" id="formulario">
+                <label>Campo para el texto que va a ser encriptado/desencriptado</label><br>
+                <textarea rows="10" cols="20" wrap="soft" placeholder="Escriba solo en minusculas" id="entrada"></textarea>
+            </form>
+            <div>
+                <button type="button" id="incriptado" class="button" onclick="imprimirIncriptado()">Incriptar</button>
+                <button type="button" id="desincriptado" class="button" onclick="imprimirDesincriptado()">Desincriptar</button>
+            </div>
+        </div> 
+        <div id="textosalida" class="two"> 
+            <textarea rows="10" cols="20" wrap="soft" placeholder="texto incriptado o desincriptado" id="salida" name="copiar" size="20"></textarea>
+            <br>
+            <button type="button" id="copiar" class="button" >Copiar</button><h1><span id="copyAnswer"></span></h1>
+        </div>
+    </div>
+    <footer><h1>Hecho por Elias Hernandez</h1></footer>
+    
+</body>
+<script src="validarletras.js"></script>
+<script src="main.js"></script>
+</html>

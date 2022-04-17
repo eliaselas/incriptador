@@ -1,0 +1,49 @@
+button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    border-radius: 5px;
+    border-color: #4CAF50;
+    width: 15%;
+    height: 40px;
+}
+textarea{
+    border-color: #4CAF50;
+    border-radius: 5px;
+    height: 50%;
+    width: 70%;
+}
+
+#salida{
+    width: 80%;
+    width: 80%;
+}
+.box {
+    display: flex;
+  }
+
+  .one {
+    flex: 1 1 auto;
+  }
+
+  .two {
+    flex: 1 1 auto;
+  }
+
+
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+    border: blue;
+}
+
+span{
+    background-color: aquamarine;
+    border-color: black;
+    border-radius: 5px;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+/* Vector */
+
